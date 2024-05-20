@@ -12,4 +12,5 @@ public class AddShowDto {
     private Date showDate;
     private int theaterId;
     private int movieId;
+
 }

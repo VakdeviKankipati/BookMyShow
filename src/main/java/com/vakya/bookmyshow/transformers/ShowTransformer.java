@@ -1,4 +1,4 @@
-package com.vakya.bookmyshow.Transformers;
+package com.vakya.bookmyshow.transformers;
 
 import com.vakya.bookmyshow.dtos.RequestDto.AddShowDto;
 import com.vakya.bookmyshow.models.Show;

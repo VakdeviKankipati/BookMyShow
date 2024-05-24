@@ -1,7 +1,6 @@
-package com.vakya.bookmyshow.Transformers;
+package com.vakya.bookmyshow.transformers;
 
 import com.vakya.bookmyshow.dtos.RequestDto.MovieEntryDto;
-import com.vakya.bookmyshow.models.Movie;
 import com.vakya.bookmyshow.models.Movie;
 
 public class MovieTransformer {

@@ -1,6 +1,6 @@
 package com.vakya.bookmyshow.services;
 
-import com.vakya.bookmyshow.Transformers.TheaterTransformer;
+import com.vakya.bookmyshow.transformers.TheaterTransformer;
 import com.vakya.bookmyshow.dtos.RequestDto.TheaterEntryDto;
 import com.vakya.bookmyshow.dtos.RequestDto.TheaterSeatsDto;
 import com.vakya.bookmyshow.enums.SeatType;

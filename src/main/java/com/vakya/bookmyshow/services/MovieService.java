@@ -2,17 +2,11 @@ package com.vakya.bookmyshow.services;
 
 import com.vakya.bookmyshow.repository.MovieRepository;
 import com.vakya.bookmyshow.repository.ShowRepository;
-import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.vakya.bookmyshow.dtos.RequestDto.MovieEntryDto;
 import com.vakya.bookmyshow.exception.MovieAlreadyPresentWithSameNameAndLanguage;
 import com.vakya.bookmyshow.models.Movie;
-import com.vakya.bookmyshow.repository.MovieRepository;
-import com.vakya.bookmyshow.repository.ShowRepository;
-import com.vakya.bookmyshow.Transformers.MovieTransformer;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import com.vakya.bookmyshow.transformers.MovieTransformer;
 
 import java.util.Optional;
 

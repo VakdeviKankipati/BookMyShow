@@ -37,7 +37,7 @@ public class Show {
     private Theater theater;
 
     @OneToMany(mappedBy = "show",cascade = CascadeType.ALL)
-    private List<ShowSeat> showSeats = new ArrayList<>();
+    private List<ShowSeat> showSeatList = new ArrayList<>();
 
     @OneToMany(mappedBy = "show",cascade = CascadeType.ALL)
     private List<Ticket> ticketList = new ArrayList<>();
